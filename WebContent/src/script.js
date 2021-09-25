@@ -1,3 +1,3 @@
-function loadHome(){
-	document.getElementById("app-page-id").innerText = "Home";
+function AddPageHeader(pageName){
+	document.getElementById("app-page-id").innerText = pageName;
 }
