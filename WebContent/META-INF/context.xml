@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+    <Resource name="jdbc/database"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="HR"
+              password="HR"
+              driverClassName="oracle.jdbc.driver.OracleDriver"
+              url="jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)
+            (HOST=localhost)(PORT=1521))(CONNECT_DATA=
+            (SERVICE_NAME=orclpdb)))"             
+              maxActive="10"
+              maxIdle="4"/>
+</Context>
